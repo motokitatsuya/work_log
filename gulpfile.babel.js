@@ -26,7 +26,7 @@ require('dotenv').config({ silent: true });
 
 
 // const
-const PORT = process.env.PORT || null;
+const PORT = process.env.PORT || 3000;
 const FALLBACK = '404.html';
 
 const HTTP_PATH = './public/';
